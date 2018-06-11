@@ -5,13 +5,8 @@ variable "prefix" {
 }
 
 resource "azurerm_resource_group" "tf-rg" {
-<<<<<<< HEAD
   name     = "rg${var.prefix}"
-  location = "West US"
-=======
-   name = "rg${var.prefix}"
-   location = "West EU"
->>>>>>> 0e97c6700a4796679d6018d111c944b21e3e0694
+  location = "West EU"
 }
 
 resource "azurerm_virtual_network" "MyResource" {
@@ -21,8 +16,3 @@ resource "azurerm_virtual_network" "MyResource" {
   address_space       = ["10.0.0.0/16"]
   dns_servers         = ["10.0.0.4"]
 }
-<<<<<<< HEAD
-=======
-
-tf-azurerm
->>>>>>> 0e97c6700a4796679d6018d111c944b21e3e0694
