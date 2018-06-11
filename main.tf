@@ -5,7 +5,7 @@ variable "prefix" {
 
 resource "azurerm_resource_group" "tf-rg" {
    name = "rg${var.prefix}"
-   location = "West US"
+   location = "West EU"
 }
 
 resource "azurerm_virtual_network" "MyResource" {
@@ -17,6 +17,3 @@ resource "azurerm_virtual_network" "MyResource" {
 }
 
 tf-azurerm
-
-
-test
