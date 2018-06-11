@@ -8,6 +8,6 @@ Ce projet à pour but de mettre en avant une architecture assez robuste et évol
 - Ferme RDS
 - Infrastructure Fortinet
 	
-Des schémas d'architecture (https://www.draw.io/) ainsi qu'une étude financière est attendu.
+Des schémas d'architecture (https://www.draw.io/) ainsi qu'une étude financière est attendu. et c'est cool
 
 ## titre 2
