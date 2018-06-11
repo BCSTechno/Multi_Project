@@ -5,7 +5,7 @@ variable "prefix" {
 }
 
 resource "azurerm_resource_group" "tf-rg" {
-  name     = "rg${var.prefix}"
+  name     = "${var.prefix}"
   location = "West EU"
 }
 
