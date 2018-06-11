@@ -1,6 +1,6 @@
 # Multi_Project
 
-Ce projet à pour but de mettre en avant une architecture assez robuste et évolutif pour héberger plusieurs projets :
+Ce projet à pour but de mettre en avant une architecture assez robuste et évolutive pour héberger plusieurs projets :
 
 	- Infrastructure Web 3 tiers
 	- Ferme RDS
