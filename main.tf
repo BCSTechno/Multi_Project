@@ -17,3 +17,6 @@ resource "azurerm_virtual_network" "MyResource" {
 }
 
 tf-azurerm
+
+
+test
